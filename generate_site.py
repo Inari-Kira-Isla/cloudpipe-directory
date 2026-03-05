@@ -296,6 +296,7 @@ def build_head(title, description, canonical, extra_schema=None):
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{esc(title)}</title>
   <meta name="description" content="{esc(description)}">
+  <meta name="google-site-verification" content="hoW2mAa2ikRCjBCFJs4miaJcNfaYKuns-SDlBX930nE">
   <meta name="robots" content="index, follow, max-snippet:-1">
   <link rel="canonical" href="{SITE_URL}{canonical}">
   <link rel="llms-txt" href="{SITE_URL}/llms.txt">
