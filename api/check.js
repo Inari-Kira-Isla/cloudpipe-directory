@@ -31,7 +31,7 @@ async function fetchWithTimeout(url, timeout = 8000) {
     const res = await fetch(url, {
       signal: controller.signal,
       headers: {
-        'User-Agent': 'CloudPipe-AEO-Check/1.0 (+https://directory-swart-xi.vercel.app/check.html)',
+        'User-Agent': 'CloudPipe-AEO-Check/1.0 (+https://cloudpipe-directory.vercel.app/check.html)',
         'Accept': 'text/html, text/plain, application/xml, */*',
       },
       redirect: 'follow',
