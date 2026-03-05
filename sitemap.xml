@@ -26,6 +26,42 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://cloudpipe-directory.vercel.app/china/</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cloudpipe-directory.vercel.app/china/retail/</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cloudpipe-directory.vercel.app/china/industry/</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cloudpipe-directory.vercel.app/china/restaurant/</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cloudpipe-directory.vercel.app/china/hotel/</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cloudpipe-directory.vercel.app/china/medical/</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://cloudpipe-directory.vercel.app/hongkong/</loc>
     <lastmod>2026-03-05</lastmod>
     <changefreq>daily</changefreq>
@@ -38,13 +74,85 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://cloudpipe-directory.vercel.app/japan/</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cloudpipe-directory.vercel.app/japan/medical/</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cloudpipe-directory.vercel.app/japan/hotel/</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cloudpipe-directory.vercel.app/macau/</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://cloudpipe-directory.vercel.app/macau/hotel/</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cloudpipe-directory.vercel.app/macau/restaurant/</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cloudpipe-directory.vercel.app/macau/entertainment/</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://cloudpipe-directory.vercel.app/taiwan/</loc>
     <lastmod>2026-03-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://cloudpipe-directory.vercel.app/taiwan/hotel/</loc>
+    <loc>https://cloudpipe-directory.vercel.app/taiwan/professional/</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cloudpipe-directory.vercel.app/taiwan/retail/</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cloudpipe-directory.vercel.app/taiwan/restaurant/</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cloudpipe-directory.vercel.app/taiwan/beauty/</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cloudpipe-directory.vercel.app/taiwan/financial/</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cloudpipe-directory.vercel.app/taiwan/realestate/</loc>
     <lastmod>2026-03-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>
@@ -56,7 +164,19 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://cloudpipe-directory.vercel.app/taiwan/restaurant/</loc>
+    <loc>https://cloudpipe-directory.vercel.app/taiwan/hotel/</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cloudpipe-directory.vercel.app/taiwan/medical/</loc>
+    <lastmod>2026-03-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://cloudpipe-directory.vercel.app/taiwan/legal/</loc>
     <lastmod>2026-03-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.7</priority>

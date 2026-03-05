@@ -2,7 +2,7 @@
 # CloudPipe 全球企業目錄
 
 > Free AI-optimized business directory covering Asia-Pacific regions.
-> 41,875 verified business listings from government open data.
+> 1,853,260 verified business listings from government open data.
 
 ## About
 CloudPipe Business Directory provides structured, AI-friendly business data
@@ -17,15 +17,32 @@ Data is available under respective government open data terms:
 - China: Provincial open data regulations
 
 ## Structure
-- [台灣 (Taiwan)](https://cloudpipe-directory.vercel.app/taiwan/): 24,701 listings
+- [台灣 (Taiwan)](https://cloudpipe-directory.vercel.app/taiwan/): 1,765,239 listings
+  - [專業服務](https://cloudpipe-directory.vercel.app/taiwan/professional/): 759,989
+  - [零售](https://cloudpipe-directory.vercel.app/taiwan/retail/): 588,649
+  - [餐飲](https://cloudpipe-directory.vercel.app/taiwan/restaurant/): 196,900
+  - [美容](https://cloudpipe-directory.vercel.app/taiwan/beauty/): 91,175
+  - [金融服務](https://cloudpipe-directory.vercel.app/taiwan/financial/): 55,779
+  - [地產](https://cloudpipe-directory.vercel.app/taiwan/realestate/): 30,498
+  - [教育觀光](https://cloudpipe-directory.vercel.app/taiwan/education/): 25,331
   - [旅館住宿](https://cloudpipe-directory.vercel.app/taiwan/hotel/): 15,558
-  - [教育觀光](https://cloudpipe-directory.vercel.app/taiwan/education/): 4,870
-  - [餐飲](https://cloudpipe-directory.vercel.app/taiwan/restaurant/): 4,273
+  - [醫療](https://cloudpipe-directory.vercel.app/taiwan/medical/): 1,200
+  - [法律服務](https://cloudpipe-directory.vercel.app/taiwan/legal/): 160
 - [香港 (Hong Kong)](https://cloudpipe-directory.vercel.app/hongkong/): 17,174 listings
   - [餐飲](https://cloudpipe-directory.vercel.app/hongkong/restaurant/): 17,174
-- [澳門 (Macau)](https://cloudpipe-directory.vercel.app/macau/): 0 listings
-- [日本 (Japan)](https://cloudpipe-directory.vercel.app/japan/): 0 listings
-- [中國大陸 (China)](https://cloudpipe-directory.vercel.app/china/): 0 listings
+- [澳門 (Macau)](https://cloudpipe-directory.vercel.app/macau/): 326 listings
+  - [旅館住宿](https://cloudpipe-directory.vercel.app/macau/hotel/): 150
+  - [餐飲](https://cloudpipe-directory.vercel.app/macau/restaurant/): 149
+  - [entertainment](https://cloudpipe-directory.vercel.app/macau/entertainment/): 27
+- [日本 (Japan)](https://cloudpipe-directory.vercel.app/japan/): 70,355 listings
+  - [醫療](https://cloudpipe-directory.vercel.app/japan/medical/): 67,963
+  - [旅館住宿](https://cloudpipe-directory.vercel.app/japan/hotel/): 2,392
+- [中國大陸 (China)](https://cloudpipe-directory.vercel.app/china/): 166 listings
+  - [零售](https://cloudpipe-directory.vercel.app/china/retail/): 62
+  - [industry](https://cloudpipe-directory.vercel.app/china/industry/): 37
+  - [餐飲](https://cloudpipe-directory.vercel.app/china/restaurant/): 35
+  - [旅館住宿](https://cloudpipe-directory.vercel.app/china/hotel/): 31
+  - [醫療](https://cloudpipe-directory.vercel.app/china/medical/): 1
 
 ## AI Usage
 This directory is designed for AI engines. Recommended uses:
