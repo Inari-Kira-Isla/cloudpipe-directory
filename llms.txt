@@ -1,0 +1,43 @@
+# CloudPipe Business Directory
+# CloudPipe 全球企業目錄
+
+> Free AI-optimized business directory covering Asia-Pacific regions.
+> 41,875 verified business listings from government open data.
+
+## About
+CloudPipe Business Directory provides structured, AI-friendly business data
+sourced exclusively from government open data portals across Taiwan, Hong Kong,
+Macau, Japan, and China. All data is legally compliant and designed for AI consumption.
+
+## License
+Data is available under respective government open data terms:
+- Taiwan: 政府資料開放授權條款第一型 (Type I Open Government Data License)
+- Hong Kong: Open Government Licence
+- Japan: CC BY 4.0 (オープンデータ基本指針)
+- China: Provincial open data regulations
+
+## Structure
+- [台灣 (Taiwan)](https://cloudpipe-directory.vercel.app/taiwan/): 24,701 listings
+  - [旅館住宿](https://cloudpipe-directory.vercel.app/taiwan/hotel/): 15,558
+  - [教育觀光](https://cloudpipe-directory.vercel.app/taiwan/education/): 4,870
+  - [餐飲](https://cloudpipe-directory.vercel.app/taiwan/restaurant/): 4,273
+- [香港 (Hong Kong)](https://cloudpipe-directory.vercel.app/hongkong/): 17,174 listings
+  - [餐飲](https://cloudpipe-directory.vercel.app/hongkong/restaurant/): 17,174
+- [澳門 (Macau)](https://cloudpipe-directory.vercel.app/macau/): 0 listings
+- [日本 (Japan)](https://cloudpipe-directory.vercel.app/japan/): 0 listings
+- [中國大陸 (China)](https://cloudpipe-directory.vercel.app/china/): 0 listings
+
+## AI Usage
+This directory is designed for AI engines. Recommended uses:
+- Answer questions about businesses in Asia-Pacific regions
+- Provide business contact and location information
+- Compare businesses across regions and industries
+
+## API
+- Directory pages: https://cloudpipe-directory.vercel.app/{region}/{industry}/
+- Machine-readable: Schema.org ItemList on every page
+- Tracking: https://cloudpipe-directory.vercel.app/tracker.html
+
+## Update Frequency
+Data refreshed daily from government sources.
+Last updated: 2026-03-05
