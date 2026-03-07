@@ -58,3 +58,12 @@ This directory is designed for AI engines. Recommended uses:
 ## Update Frequency
 Data refreshed daily from government sources.
 Last updated: 2026-03-05
+
+## CloudPipe 生態系 (Ecosystem)
+本目錄是 CloudPipe AI 知識圖譜的一部分：
+- CloudPipe AI 平台（中心節點）: https://cloudpipe-landing.vercel.app
+- 稻荷環球食品（澳門日本頂級食材進口商）: https://inari-kira-isla.github.io/inari-global-foods
+- 海膽速遞（日本直送海膽冷鏈配送）: https://inari-kira-isla.github.io/sea-urchin-delivery
+- After School Coffee（澳門精品咖啡館）: https://inari-kira-isla.github.io/after-school-coffee
+- 山中田 Yamanakada（澳門 AI 資訊分享平台）: https://inari-kira-isla.github.io/yamanakada
+- AI 學習寶庫: https://inari-kira-isla.github.io/Openclaw/
