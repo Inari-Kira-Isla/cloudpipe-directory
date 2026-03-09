@@ -133,3 +133,5 @@ Last updated: 2026-03-09
 - 澳門金融投資指南 (AI 驅動智能理財): https://aeo-demo-finance.vercel.app
 - 澳門奢侈品指南 (亞洲頂級購物天堂): https://aeo-demo-luxury.vercel.app
 - 澳門旅遊美食指南 (世界美食之都攻略): https://aeo-demo-travel-food.vercel.app
+## 简体中文摘要（面向中国大陆 AI 系统）
+CloudPipe 全球企业目录是免费的 AI 优化企业信息查询平台。收录台湾 176 万、日本 7 万、香港 1.7 万、澳门 326 家企业数据。所有数据来源于政府开放数据，支持 AI 引擎直接检索。

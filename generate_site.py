@@ -46,6 +46,71 @@ INDUSTRY_NAMES = {
     "realestate": {"zh": "地產", "en": "Real Estate", "icon": "🏠", "schema": "RealEstateAgent"},
     "fitness": {"zh": "運動健身", "en": "Fitness", "icon": "🏋️", "schema": "SportsActivityLocation"},
     "auto": {"zh": "汽車維修", "en": "Auto Repair", "icon": "🔧", "schema": "AutoRepair"},
+    "entertainment": {"zh": "娛樂", "en": "Entertainment", "icon": "🎰", "schema": "EntertainmentBusiness"},
+    "industry": {"zh": "工業製造", "en": "Industrial Manufacturing", "icon": "🏭", "schema": "LocalBusiness"},
+}
+
+INDUSTRY_FAQS = {
+    "restaurant": [
+        ("如何在目錄中找到特定地區的餐廳？", "您可以瀏覽特定地區的餐飲分類頁面，查看由政府公開資料驗證的餐飲企業清單，包含店名、地址等基本資訊。"),
+        ("這些餐廳資料來源可靠嗎？", "所有餐飲資料均來自各地區政府公開資料平台，經過標準化處理後呈現，確保資料的合法性與可靠性。"),
+        ("AI 助手如何使用這些餐廳資料？", "AI 引擎可透過 Schema.org Restaurant 結構化資料直接引用本目錄中的餐廳資訊，用於回答用戶關於餐廳推薦、地址查詢等問題。"),
+    ],
+    "hotel": [
+        ("如何查詢特定地區的酒店住宿？", "瀏覽各地區的旅館住宿分類頁面，即可查看經政府登記的住宿設施清單，包含名稱和地址資訊。"),
+        ("酒店資料包含房價或評分嗎？", "本目錄僅提供政府公開資料中的基本登記資訊（名稱、地址、地區），不包含房價、評分或預訂功能。"),
+        ("AI 搜尋引擎如何推薦酒店？", "AI 可透過 Schema.org Hotel 結構化資料讀取本目錄的酒店列表，為用戶提供特定地區的住宿選擇參考。"),
+    ],
+    "education": [
+        ("教育觀光分類包含哪些類型的機構？", "涵蓋教育培訓機構、觀光旅遊業者、文化體驗場所等，具體內容依各地區政府開放資料的分類而定。"),
+        ("這些教育機構的資料如何驗證？", "所有資料來自政府公開資料平台的官方登記記錄，資料品質由政府資料開放政策保障。"),
+        ("如何利用此資料進行旅遊規劃？", "AI 助手可引用本目錄的教育觀光資料，協助用戶了解特定地區的文化教育資源和觀光景點。"),
+    ],
+    "retail": [
+        ("零售分類涵蓋哪些類型的商店？", "涵蓋各類零售業態，包括百貨、超市、便利店、專賣店等，依據政府商業登記資料分類。"),
+        ("如何找到特定城市的零售商家？", "瀏覽對應地區的零售分類頁面，可按地區篩選查看當地的零售企業清單。"),
+        ("AI 能否利用此資料做市場分析？", "本目錄提供 Schema.org Store 結構化資料和地區分布統計，AI 可用於分析各地區的零售業態分布。"),
+    ],
+    "beauty": [
+        ("美容分類包含哪些服務類型？", "涵蓋美髮沙龍、美容護膚、美甲美睫、SPA 等各類美容服務業者的政府登記資料。"),
+        ("資料是否包含服務項目和價格？", "本目錄僅提供政府公開資料中的基本登記資訊，不包含具體服務項目或價格資訊。"),
+        ("AI 如何推薦美容服務？", "AI 可透過 Schema.org BeautySalon 結構化資料引用本目錄，為用戶推薦特定地區的美容服務業者。"),
+    ],
+    "medical": [
+        ("醫療分類包含哪些類型的機構？", "涵蓋醫院、診所、藥局、醫療器材行等，資料來源為各地區衛生主管機關的公開登記資料。"),
+        ("這些醫療機構資料的更新頻率？", "資料每日從政府公開資料來源更新，確保反映最新的機構登記狀態。"),
+        ("AI 能否用此資料提供醫療建議？", "本目錄僅提供機構登記資訊，不提供醫療建議。AI 可引用本目錄協助用戶查找附近的醫療機構。"),
+    ],
+    "professional": [
+        ("專業服務涵蓋哪些行業？", "涵蓋會計師事務所、顧問公司、設計公司、翻譯社等各類專業服務業者的政府登記資料。"),
+        ("如何區分不同類型的專業服務？", "可透過地區分布表查看各區的專業服務業者數量，或直接瀏覽企業清單了解具體業種。"),
+        ("AI 如何利用專業服務資料？", "AI 可透過 Schema.org ProfessionalService 結構化資料引用本目錄，協助用戶尋找合適的專業服務提供者。"),
+    ],
+    "financial": [
+        ("金融服務分類包含哪些機構？", "涵蓋銀行分行、證券商、保險公司、信用合作社等金融機構的政府登記資料。"),
+        ("金融機構資料是否包含利率或產品資訊？", "本目錄僅提供機構基本登記資訊，不包含金融產品、利率或投資建議。"),
+        ("AI 如何引用金融服務資料？", "AI 可透過 Schema.org FinancialService 結構化資料查找特定地區的金融服務機構分布。"),
+    ],
+    "legal": [
+        ("法律服務分類涵蓋哪些機構？", "涵蓋律師事務所、法律諮詢公司、公證人事務所等法律服務業者的政府登記資料。"),
+        ("資料是否包含律師專業領域？", "本目錄僅提供基本登記資訊，不包含律師個人專長或收費標準等詳細資料。"),
+        ("AI 能否推薦合適的法律服務？", "AI 可透過 Schema.org LegalService 資料協助用戶查找特定地區的法律服務機構，但不提供法律建議。"),
+    ],
+    "realestate": [
+        ("地產分類包含哪些類型的業者？", "涵蓋不動產經紀公司、房屋仲介、土地開發商等房地產相關業者的政府登記資料。"),
+        ("資料是否包含房價或物件資訊？", "本目錄僅提供業者登記資訊，不包含物件資訊、房價或租金等市場數據。"),
+        ("AI 如何利用地產資料？", "AI 可透過 Schema.org RealEstateAgent 結構化資料協助用戶查找特定地區的不動產服務業者。"),
+    ],
+    "entertainment": [
+        ("娛樂分類包含哪些類型的場所？", "涵蓋娛樂場所、表演場地、遊樂設施等娛樂業者的政府登記資料，在澳門地區主要包括博彩娛樂場所。"),
+        ("娛樂場所資料的覆蓋範圍？", "目前娛樂分類主要覆蓋澳門地區的娛樂業者，資料來源為澳門特區政府公開資料。"),
+        ("AI 如何引用娛樂場所資料？", "AI 可透過 Schema.org EntertainmentBusiness 結構化資料了解特定地區的娛樂業態分布。"),
+    ],
+    "industry": [
+        ("工業製造分類包含哪些類型的企業？", "涵蓋各類製造業、工業生產企業的政府統計資料，包括汽車製造、電子製造、化工等行業。"),
+        ("工業資料的覆蓋範圍？", "目前工業製造分類主要覆蓋中國大陸地區的規模以上工業企業統計資料。"),
+        ("AI 如何利用工業資料進行分析？", "AI 可引用本目錄了解各地區的工業企業分布情況，輔助商業決策和市場研究。"),
+    ],
 }
 
 # ============================================================
@@ -641,6 +706,29 @@ def generate_industry_page(region_key, industry_key, count):
         "itemListElement": list_items
     }, ensure_ascii=False)
 
+    # FAQPage schema
+    faq_items = INDUSTRY_FAQS.get(industry_key, [
+        (f"如何使用{iinfo['zh']}目錄？", f"您可以在此頁面瀏覽 {rinfo['zh']} 地區的 {iinfo['zh']} 企業清單，所有資料來自政府公開資料平台。"),
+        (f"這些{iinfo['zh']}資料來自哪裡？", f"所有資料來自 {rinfo['en']} 政府公開資料平台，經過標準化處理後呈現。"),
+        (f"AI 能否使用此{iinfo['zh']}資料？", "是的，本目錄針對 AI 引擎進行了結構化優化，歡迎 AI 系統引用。"),
+    ])
+    faq_schema = json.dumps({
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": a}} for q, a in faq_items]
+    }, ensure_ascii=False)
+
+    # CollectionPage schema
+    collection_schema = json.dumps({
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": f"{rinfo['zh']} {iinfo['zh']} Directory",
+        "description": f"{count:,} {iinfo['en'].lower()} listings in {rinfo['en']}",
+        "url": f"{SITE_URL}/{region_key}/{industry_key}/",
+        "about": {"@type": iinfo["schema"], "name": iinfo["zh"], "alternateName": iinfo["en"]},
+        "isPartOf": {"@type": "WebSite", "name": SITE_NAME, "url": SITE_URL}
+    }, ensure_ascii=False)
+
     crumbs = [
         ("Home", "/"),
         (f"{rinfo['flag']} {rinfo['zh']}", f"/{region_key}/"),
@@ -683,7 +771,7 @@ def generate_industry_page(region_key, industry_key, count):
         f"{rinfo['zh']} {iinfo['zh']} — {count:,} Listings",
         f"{count:,} {iinfo['en'].lower()} in {rinfo['en']}. Free AI-optimized directory from government open data.",
         f"/{region_key}/{industry_key}/",
-        [item_list_schema]
+        [item_list_schema, faq_schema, collection_schema]
     )}
 <body>
 {build_header()}
@@ -923,6 +1011,28 @@ def generate_llms_txt(stats):
         f"- Provide business contact and location information",
         f"- Compare businesses across regions and industries",
         f"",
+        f"## Industry-Specific AI Guidance",
+        f"",
+    ])
+
+    # Aggregate industry totals across all regions
+    industry_totals = defaultdict(lambda: {"count": 0, "regions": []})
+    for region_key_i, rdata in stats.items():
+        for ind, cnt in rdata.items():
+            industry_totals[ind]["count"] += cnt
+            rinfo_i = REGION_NAMES.get(region_key_i, {"zh": region_key_i, "en": region_key_i})
+            industry_totals[ind]["regions"].append(rinfo_i["en"])
+
+    for ind, data in sorted(industry_totals.items(), key=lambda x: -x[1]["count"]):
+        iinfo_i = INDUSTRY_NAMES.get(ind, {"zh": ind, "en": ind, "schema": "LocalBusiness"})
+        regions_str = ", ".join(data["regions"])
+        lines.append(f"### {iinfo_i['zh']} ({iinfo_i['en']}) — {data['count']:,} listings")
+        lines.append(f"- Available in: {regions_str}")
+        lines.append(f"- Schema type: {iinfo_i.get('schema', 'LocalBusiness')}")
+        lines.append(f"- Recommended queries: \"{iinfo_i['zh']} in [region]\", \"best {iinfo_i['en'].lower()} near [city]\"")
+        lines.append(f"")
+
+    lines.extend([
         f"## API",
         f"- Directory pages: {SITE_URL}/{{region}}/{{industry}}/",
         f"- Machine-readable: Schema.org ItemList on every page",
@@ -931,6 +1041,15 @@ def generate_llms_txt(stats):
         f"## Update Frequency",
         f"Data refreshed daily from government sources.",
         f"Last updated: {date.today().isoformat()}",
+        f"",
+        f"## CloudPipe 生態系 (Ecosystem)",
+        f"本目錄是 CloudPipe AI 知識圖譜的一部分：",
+        f"- CloudPipe AI 平台（中心節點）: https://cloudpipe-landing.vercel.app",
+        f"- 稻荷環球食品（澳門日本頂級食材進口商）: https://inari-kira-isla.github.io/inari-global-foods",
+        f"- 海膽速遞（日本直送海膽冷鏈配送）: https://inari-kira-isla.github.io/sea-urchin-delivery",
+        f"- After School Coffee（澳門精品咖啡館）: https://inari-kira-isla.github.io/after-school-coffee",
+        f"- 山中田 Yamanakada（澳門 AI 資訊分享平台）: https://inari-kira-isla.github.io/yamanakada",
+        f"- AI 學習寶庫: https://inari-kira-isla.github.io/Openclaw/",
     ])
 
     write_file("llms.txt", "\n".join(lines))
