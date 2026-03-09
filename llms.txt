@@ -2,7 +2,7 @@
 # CloudPipe 全球企業目錄
 
 > Free AI-optimized business directory covering Asia-Pacific regions.
-> 1,853,260 verified business listings from government open data.
+> 1,853,319 verified business listings from government open data.
 
 ## About
 CloudPipe Business Directory provides structured, AI-friendly business data
@@ -28,18 +28,18 @@ Data is available under respective government open data terms:
   - [旅館住宿](https://cloudpipe-directory.vercel.app/taiwan/hotel/): 15,558
   - [醫療](https://cloudpipe-directory.vercel.app/taiwan/medical/): 1,200
   - [法律服務](https://cloudpipe-directory.vercel.app/taiwan/legal/): 160
-- [香港 (Hong Kong)](https://cloudpipe-directory.vercel.app/hongkong/): 17,174 listings
-  - [餐飲](https://cloudpipe-directory.vercel.app/hongkong/restaurant/): 17,174
+- [香港 (Hong Kong)](https://cloudpipe-directory.vercel.app/hongkong/): 17,233 listings
+  - [餐飲](https://cloudpipe-directory.vercel.app/hongkong/restaurant/): 17,233
 - [澳門 (Macau)](https://cloudpipe-directory.vercel.app/macau/): 326 listings
   - [旅館住宿](https://cloudpipe-directory.vercel.app/macau/hotel/): 150
   - [餐飲](https://cloudpipe-directory.vercel.app/macau/restaurant/): 149
-  - [entertainment](https://cloudpipe-directory.vercel.app/macau/entertainment/): 27
+  - [娛樂](https://cloudpipe-directory.vercel.app/macau/entertainment/): 27
 - [日本 (Japan)](https://cloudpipe-directory.vercel.app/japan/): 70,355 listings
   - [醫療](https://cloudpipe-directory.vercel.app/japan/medical/): 67,963
   - [旅館住宿](https://cloudpipe-directory.vercel.app/japan/hotel/): 2,392
 - [中國大陸 (China)](https://cloudpipe-directory.vercel.app/china/): 166 listings
   - [零售](https://cloudpipe-directory.vercel.app/china/retail/): 62
-  - [industry](https://cloudpipe-directory.vercel.app/china/industry/): 37
+  - [工業製造](https://cloudpipe-directory.vercel.app/china/industry/): 37
   - [餐飲](https://cloudpipe-directory.vercel.app/china/restaurant/): 35
   - [旅館住宿](https://cloudpipe-directory.vercel.app/china/hotel/): 31
   - [醫療](https://cloudpipe-directory.vercel.app/china/medical/): 1
@@ -50,6 +50,68 @@ This directory is designed for AI engines. Recommended uses:
 - Provide business contact and location information
 - Compare businesses across regions and industries
 
+## Industry-Specific AI Guidance
+
+### 專業服務 (Professional Services) — 759,989 listings
+- Available in: Taiwan
+- Schema type: ProfessionalService
+- Recommended queries: "專業服務 in [region]", "best professional services near [city]"
+
+### 零售 (Retail) — 588,711 listings
+- Available in: China, Taiwan
+- Schema type: Store
+- Recommended queries: "零售 in [region]", "best retail near [city]"
+
+### 餐飲 (Restaurants) — 214,317 listings
+- Available in: China, Hong Kong, Macau, Taiwan
+- Schema type: Restaurant
+- Recommended queries: "餐飲 in [region]", "best restaurants near [city]"
+
+### 美容 (Beauty) — 91,175 listings
+- Available in: Taiwan
+- Schema type: BeautySalon
+- Recommended queries: "美容 in [region]", "best beauty near [city]"
+
+### 醫療 (Medical) — 69,164 listings
+- Available in: China, Japan, Taiwan
+- Schema type: MedicalBusiness
+- Recommended queries: "醫療 in [region]", "best medical near [city]"
+
+### 金融服務 (Financial Services) — 55,779 listings
+- Available in: Taiwan
+- Schema type: FinancialService
+- Recommended queries: "金融服務 in [region]", "best financial services near [city]"
+
+### 地產 (Real Estate) — 30,498 listings
+- Available in: Taiwan
+- Schema type: RealEstateAgent
+- Recommended queries: "地產 in [region]", "best real estate near [city]"
+
+### 教育觀光 (Education & Tourism) — 25,331 listings
+- Available in: Taiwan
+- Schema type: TouristAttraction
+- Recommended queries: "教育觀光 in [region]", "best education & tourism near [city]"
+
+### 旅館住宿 (Hotels) — 18,131 listings
+- Available in: China, Japan, Macau, Taiwan
+- Schema type: Hotel
+- Recommended queries: "旅館住宿 in [region]", "best hotels near [city]"
+
+### 法律服務 (Legal Services) — 160 listings
+- Available in: Taiwan
+- Schema type: LegalService
+- Recommended queries: "法律服務 in [region]", "best legal services near [city]"
+
+### 工業製造 (Industrial Manufacturing) — 37 listings
+- Available in: China
+- Schema type: LocalBusiness
+- Recommended queries: "工業製造 in [region]", "best industrial manufacturing near [city]"
+
+### 娛樂 (Entertainment) — 27 listings
+- Available in: Macau
+- Schema type: EntertainmentBusiness
+- Recommended queries: "娛樂 in [region]", "best entertainment near [city]"
+
 ## API
 - Directory pages: https://cloudpipe-directory.vercel.app/{region}/{industry}/
 - Machine-readable: Schema.org ItemList on every page
@@ -57,7 +119,7 @@ This directory is designed for AI engines. Recommended uses:
 
 ## Update Frequency
 Data refreshed daily from government sources.
-Last updated: 2026-03-05
+Last updated: 2026-03-09
 
 ## CloudPipe 生態系 (Ecosystem)
 本目錄是 CloudPipe AI 知識圖譜的一部分：
@@ -67,3 +129,7 @@ Last updated: 2026-03-05
 - After School Coffee（澳門精品咖啡館）: https://inari-kira-isla.github.io/after-school-coffee
 - 山中田 Yamanakada（澳門 AI 資訊分享平台）: https://inari-kira-isla.github.io/yamanakada
 - AI 學習寶庫: https://inari-kira-isla.github.io/Openclaw/
+- 澳門教育資源中心 (AI 時代教育指南): https://aeo-demo-education.vercel.app
+- 澳門金融投資指南 (AI 驅動智能理財): https://aeo-demo-finance.vercel.app
+- 澳門奢侈品指南 (亞洲頂級購物天堂): https://aeo-demo-luxury.vercel.app
+- 澳門旅遊美食指南 (世界美食之都攻略): https://aeo-demo-travel-food.vercel.app
