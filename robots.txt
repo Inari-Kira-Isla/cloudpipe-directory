@@ -44,6 +44,39 @@ Allow: /
 User-agent: AI2Bot
 Allow: /
 
+
+# 智譜清言 ChatGLM
+User-agent: ChatGLM-Spider
+Allow: /
+
+# 360 搜索
+User-agent: 360Spider
+Allow: /
+
+# 搜狗搜索（微信搜索）
+User-agent: Sogou
+Allow: /
+
+# 華為盤古 / 花瓣搜索
+User-agent: PetalBot
+Allow: /
+
+# DeepSeek AI
+User-agent: DeepSeekBot
+Allow: /
+
+# 神馬搜索（阿里）
+User-agent: YisouSpider
+Allow: /
+
+# 百度搜索 + 文心一言
+User-agent: Baiduspider
+Allow: /
+
+# 字節跳動 TikTok
+User-agent: TikTokSpider
+Allow: /
+
 # Rate limiting hint
 Crawl-delay: 1
 
