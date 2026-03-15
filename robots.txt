@@ -77,6 +77,30 @@ Allow: /
 User-agent: TikTokSpider
 Allow: /
 
+# 騰訊混元
+User-agent: HunyuanBot
+Allow: /
+
+# Moonshot Kimi
+User-agent: Kimi-Bot
+Allow: /
+
+# 字節跳動豆包
+User-agent: Doubao
+Allow: /
+
+# 訊飛星火
+User-agent: SparkBot
+Allow: /
+
+# 商湯日日新 SenseChat
+User-agent: SenseChat
+Allow: /
+
+# 微軟小冰
+User-agent: XiaoIce
+Allow: /
+
 # Rate limiting hint
 Crawl-delay: 1
 
