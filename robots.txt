@@ -1,111 +1,68 @@
-# CloudPipe Business Directory — AI-Friendly Robots.txt
-# Welcome AI crawlers!
-
 User-agent: *
 Allow: /
 
-# AI Crawlers — explicitly welcome
+# === International AI Crawlers ===
 User-agent: GPTBot
 Allow: /
-
 User-agent: ChatGPT-User
 Allow: /
-
-User-agent: Google-Extended
-Allow: /
-
 User-agent: ClaudeBot
 Allow: /
-
-User-agent: Anthropic
+User-agent: anthropic-ai
 Allow: /
-
 User-agent: PerplexityBot
 Allow: /
-
-User-agent: CCBot
+User-agent: Google-Extended
 Allow: /
-
-User-agent: Bytespider
+User-agent: Googlebot
 Allow: /
-
-User-agent: cohere-ai
+User-agent: Bingbot
 Allow: /
-
-User-agent: Meta-ExternalAgent
+User-agent: meta-externalagent
 Allow: /
-
+User-agent: FacebookBot
+Allow: /
 User-agent: Applebot-Extended
 Allow: /
-
+User-agent: CCBot
+Allow: /
 User-agent: YouBot
 Allow: /
-
-User-agent: AI2Bot
+User-agent: cohere-ai
+Allow: /
+User-agent: Amazonbot
 Allow: /
 
-
-# 智譜清言 ChatGLM
-User-agent: ChatGLM-Spider
-Allow: /
-
-# 360 搜索
-User-agent: 360Spider
-Allow: /
-
-# 搜狗搜索（微信搜索）
-User-agent: Sogou
-Allow: /
-
-# 華為盤古 / 花瓣搜索
-User-agent: PetalBot
-Allow: /
-
-# DeepSeek AI
-User-agent: DeepSeekBot
-Allow: /
-
-# 神馬搜索（阿里）
-User-agent: YisouSpider
-Allow: /
-
-# 百度搜索 + 文心一言
+# === Chinese AI Crawlers ===
 User-agent: Baiduspider
 Allow: /
-
-# 字節跳動 TikTok
+User-agent: Bytespider
+Allow: /
 User-agent: TikTokSpider
 Allow: /
-
-# 騰訊混元
+User-agent: ChatGLM-Spider
+Allow: /
+User-agent: 360Spider
+Allow: /
+User-agent: Sogou
+Allow: /
+User-agent: PetalBot
+Allow: /
+User-agent: DeepSeekBot
+Allow: /
+User-agent: YisouSpider
+Allow: /
 User-agent: HunyuanBot
 Allow: /
-
-# Moonshot Kimi
 User-agent: Kimi-Bot
 Allow: /
-
-# 字節跳動豆包
 User-agent: Doubao
 Allow: /
-
-# 訊飛星火
 User-agent: SparkBot
 Allow: /
-
-# 商湯日日新 SenseChat
 User-agent: SenseChat
 Allow: /
-
-# 微軟小冰
 User-agent: XiaoIce
 Allow: /
 
-# Rate limiting hint
-Crawl-delay: 1
-
-# Sitemaps
 Sitemap: https://cloudpipe-directory.vercel.app/sitemap.xml
-
-# AI Discovery
-# See also: https://cloudpipe-directory.vercel.app/llms.txt
